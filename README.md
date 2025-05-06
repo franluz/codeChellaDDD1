@@ -1,4 +1,4 @@
-![Programação-Arquitetura Java (1)](https://c8.alamy.com/comp/2H2T5DK/ddd-with-digital-java-code-text-ddd-and-computer-software-coding-vector-concept-programming-coding-script-java-digital-program-code-with-ddd-on-scr-2H2T5DK.jpg)
+![Programação-Arquitetura Java (1)](https://github.com/franluz/codeChellaDDD1/blob/main/src/img/ChatGPT%20Image%206%20de%20mai.%20de%202025,%2006_03_44.png?raw=true)
 
 ![](https://img.shields.io/github/license/alura-cursos/android-com-kotlin-personalizando-ui)
 
