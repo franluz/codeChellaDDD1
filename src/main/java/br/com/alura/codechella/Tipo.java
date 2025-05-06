@@ -65,7 +65,7 @@ public class Tipo {
         return setor;
     }
 
-    public void setFormato(Setor formato) {
+    public void setSetor(Setor setor) {
         this.setor = setor;
     }
 
