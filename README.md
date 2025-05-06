@@ -1,4 +1,4 @@
-![Programação-Arquitetura Java (1)]
+![Programação-Arquitetura Java (1)](https://c8.alamy.com/comp/2H2T5DK/ddd-with-digital-java-code-text-ddd-and-computer-software-coding-vector-concept-programming-coding-script-java-digital-program-code-with-ddd-on-scr-2H2T5DK.jpg)
 
 ![](https://img.shields.io/github/license/alura-cursos/android-com-kotlin-personalizando-ui)
 
