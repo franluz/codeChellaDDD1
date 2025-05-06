@@ -1,4 +1,4 @@
-![Programação-Arquitetura Java (1)](https://github.com/jacqueline-oliveira/3699-java-domain-driven-design/assets/66698429/1337777b-95b9-4222-8f24-e01c0fb01f67)
+![Programação-Arquitetura Java (1)]
 
 ![](https://img.shields.io/github/license/alura-cursos/android-com-kotlin-personalizando-ui)
 
