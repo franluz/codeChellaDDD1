@@ -1,4 +1,4 @@
-package br.com.alura.codechella.dominio.ingresso;
+package br.com.alura.codechella.aplicacao.ingresso;
 
 import jakarta.validation.constraints.NotNull;
 

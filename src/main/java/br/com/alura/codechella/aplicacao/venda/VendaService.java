@@ -1,7 +1,7 @@
 package br.com.alura.codechella.aplicacao.venda;
 
 import br.com.alura.codechella.aplicacao.usuario.DadosUsuario;
-import br.com.alura.codechella.dominio.ingresso.DadosTipoIngresso;
+import br.com.alura.codechella.aplicacao.ingresso.DadosTipoIngresso;
 import br.com.alura.codechella.infra.ingresso.Ingresso;
 import br.com.alura.codechella.infra.ingresso.Tipo;
 import br.com.alura.codechella.infra.ingresso.TipoRepository;

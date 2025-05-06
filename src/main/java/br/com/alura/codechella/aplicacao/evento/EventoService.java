@@ -2,7 +2,7 @@ package br.com.alura.codechella.aplicacao.evento;
 
 import br.com.alura.codechella.dominio.evento.DadosEndereco;
 import br.com.alura.codechella.infra.evento.Evento;
-import br.com.alura.codechella.dominio.ingresso.DadosCadastroTipoIngresso;
+import br.com.alura.codechella.aplicacao.ingresso.DadosCadastroTipoIngresso;
 import br.com.alura.codechella.infra.evento.EventoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

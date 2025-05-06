@@ -1,6 +1,6 @@
 package br.com.alura.codechella.aplicacao.venda;
 
-import br.com.alura.codechella.dominio.ingresso.DadosCadastroIngresso;
+import br.com.alura.codechella.aplicacao.ingresso.DadosCadastroIngresso;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.NotNull;
 

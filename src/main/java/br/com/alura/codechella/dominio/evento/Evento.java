@@ -5,6 +5,7 @@ import br.com.alura.codechella.dominio.ingresso.TipoIngresso;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Locale;
 import java.util.UUID;
 
 public class Evento {
@@ -21,6 +22,10 @@ public class Evento {
         this.data = data;
         this.endereco = endereco;
         gerarIdentificadorUnico();
+    }
+
+    private Evento() {
+        super();
     }
 
     private void gerarIdentificadorUnico() {
@@ -53,5 +58,50 @@ public class Evento {
 
     public List<TipoIngresso> getTipoIngressos() {
         return tipoIngressos;
+    }
+
+    public static class EventoBuilder {
+        private Evento evento;
+
+        public EventoBuilder() {
+            evento = new Evento();
+        }
+
+        public EventoBuilder comCategoria(Categoria categoria) {
+            evento.categoria = categoria;
+            return this;
+        }
+
+        public EventoBuilder comDescricao(String descricao) {
+            evento.descricao = descricao;
+            return this;
+        }
+
+        public EventoBuilder comEndereco(Endereco endereco) {
+            this.evento.endereco = endereco;
+            return this;
+        }
+
+        public EventoBuilder comData(LocalDateTime data) {
+            this.evento.data = data;
+            return this;
+        }
+
+        public Evento build() {
+            evento.gerarIdentificadorUnico();
+            return evento;
+        }
+    }
+
+    @Override
+    public String toString() {
+        return "Evento{" +
+                "uuid=" + uuid +
+                ", categoria=" + categoria +
+                ", descricao='" + descricao + '\'' +
+                ", data=" + data +
+                ", endereco=" + endereco +
+                ", tipoIngressos=" + tipoIngressos +
+                '}';
     }
 }
