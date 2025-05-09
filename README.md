@@ -1,4 +1,4 @@
-![Programação-Arquitetura Java (1)]
+![Programação-Arquitetura Java (1)](https://myfranbucketimagens.s3.sa-east-1.amazonaws.com/DDD-angular.png)
 
 ![](https://img.shields.io/github/license/alura-cursos/android-com-kotlin-personalizando-ui)
 
